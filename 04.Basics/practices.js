@@ -1,0 +1,12 @@
+let favActorFirstName="Robert";
+let favActorNameLast="Downey Jr.";
+let fullName=favActorFirstName+" "+favActorNameLast;
+console.log(fullName);
+let uppercasename= fullName.toUpperCase();
+console.log(uppercasename);
+let lowercase =fullName.toLowerCase();
+console.log(lowercase);
+let nameLength= fullName.length;
+console.log(nameLength);
+let message=`my favorite actor is ${fullName} and his is very1`;
+console.log(message);
