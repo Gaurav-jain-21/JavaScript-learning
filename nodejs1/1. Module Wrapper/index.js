@@ -3,5 +3,10 @@ const greet = require("./greet");
 greet("Gaurav");
 greet("Ram")
 greet("vikash")
-const persons= require("./people");
-console.log(persons);
+const {person1,person2,person3}= require("./people");
+// console.log(person1);
+// console.log(person2);
+// console.log(person3);
+greet(person1);
+greet(person2);
+greet(person3);
