@@ -11,4 +11,6 @@ const person={
 }
 //JSON.stringify()
 const jsonString= JSON.stringify(person);
+const parsedObject= JSON.parse(jsonString)
 console.log(jsonString);
+console.log(parsedObject);
