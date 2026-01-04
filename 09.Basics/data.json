@@ -1,0 +1,11 @@
+{
+    "name": "Gaurav jain",
+    "age": 22,
+    "email": "gjain7764@gmail.com",
+    "isSubscribed": true,
+    "hobbies":["Reading","Running","Cooking"],
+    "address":{
+        "city": "New York",
+        "idk":true
+    }
+}
