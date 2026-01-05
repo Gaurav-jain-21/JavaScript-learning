@@ -11,4 +11,10 @@ const app= express();
 app.get("/",(req,res)=>{
     res.send("welcome to express.js");
 })
+app.get("/about",(req,res)=>{
+    res.send("<h1>about</h1>");
+})
+app.get("/contact",(req,res)=>{
+    res.send("<h1>Contact Page </h1>");
+})
 app.listen(8000, ()=>console.log("server up!"));
