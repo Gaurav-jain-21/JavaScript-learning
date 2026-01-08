@@ -1,6 +1,7 @@
 import express from "express";
 import log from "./logindetials.js";
 const app = express();
+app.use(log);
 function userCredentials(req,res,next){
     console.log("username: (alex)");
     console.log("email: (alex@gmail.com)");
